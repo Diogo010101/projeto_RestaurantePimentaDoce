@@ -4,19 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Pimenta Doce</title>
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
+        <div class="container">
         <h1 class="titulo-principal">
+            <i class="fas fa-seedling"></i>
             Restaurante Pimenta Doce
         </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        </div>
     </header>
-    <img src="img/banner.jpg" alt="Imagem de um restaurante com poltronas azuis e cadeiras de cobre com estofados em couro"
+    <img id="banner"src="img/banner.jpg" alt="Imagem de um restaurante com poltronas azuis e cadeiras de cobre com estofados em couro"
         width="500">
-        <div>
-            <h2>Sobre o Restaurante</h2>
+        <section class="conteudo-principal">
+            <h2 class="titulo-secao">
+                Sobre o Restaurante
+            </h2>
         
         <p>Localizado do bairro da Paulista <strong>O Restaurante Pimenta Doce</strong> traz um novo conceito de restaurante para você vivenciar. Fundado em 2022, o restaurante Pimenta Doce entrega uma experiência única onde os próprios clientes preparam suas pratos com ajuda dos chefes, o chefe é escolhido de acordo com a nacionalidade do prato escolido.</p>
         <p id="missao">
@@ -25,18 +40,28 @@
         <p>
             Nosso atendimento é único e nunca caimos na rotina, são diversos pratos que mudam a cada 15 dias.
         </p>
-    </div>
-    <div>
-        <h3>
+    </section>
+    <section class="servicos">
+        <h3 class="titulo-centralizado titulo-secao">
             Serviços
         </h3>
         <ul>
-            <li>Pratos Veganos</li>
-            <li>Não alérgicos</li>
-            <li>Bebidas Artesanais</li>
-            <li>Espaço Kids</li>
+            <li class="item">Pratos Veganos</li>
+            <li class="item">Não alérgicos</li>
+            <li class="item">Bebidas Artesanais</li>
+            <li class="item">Espaço Kids</li>
+            <li class="item">Reservas</li>
         </ul>
-        <img src="img/servicos.jpg" alt="Pessoa vestida com roupa de chef de cozinha, segurando uma panela com a mãe direira e uma colher com a esquerda, ela está despejando um molho com a colher emcima de uma prato com carnes e outros alimentos." width="500">
+        <img class="imagem-servicos" src="img/servicos.jpg" alt="Pessoa vestida com roupa de chef de cozinha, segurando uma panela com a mãe direira e uma colher com a esquerda, ela está despejando um molho com a colher emcima de uma prato com carnes e outros alimentos." width="500">
+    </section>
+
+<footer>
+    <div class="container">
+        <p class="copyright">
+            Feito com <span>&hearts;</span> por Diogo| Copyright &copy; 2022 - Restaurante Pimenta Doce
+
+        </p>
     </div>
+</footer>
 </body>
 </html>
