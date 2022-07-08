@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #26522d;
+    font: 18px Arial, Helvetica sans-serif;
+    padding: 8px 0;
+}
+
+input, textarea {
+    border-radius: 4px;
+    font: 16px Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+}
+
+textarea{
+    height:200px;
+    resize: none;
+}
+
+::placeholder {
+    color: #499e57;
+    opacity: 0.5;
+}
+
+buttom {
+    align-self: end;
+    background: linear-gradient(to right bottom, #499e57, #26522d);
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font: 18px Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    padding: 12px 16px;
+    width: 200px;
+}
+
+botton:hover{
+    background: rgba(38, 82, 45, 0.8);
+}
+
+botton i{
+    margin: 0 5px -5px;
+}
